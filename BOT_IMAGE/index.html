@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Image Creation</title>
-    <link rel="stylesheet" href="style.css">
-<body>
-    <!-- <form action="https://rfaelvitor.github.io/Testing_an_API_v2/BOT_TEXT/index2.html"> -->
-        <a href=../BOT_TEXT/index2.html>
-        <button id="other_bot">Gerador de Texto ➡️ </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Image Generate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="../BOT_TEXT/index2.html">
+      <button id="other_bot">Gerador de Texto ➡️</button>
     </a>
-    <!-- </form> -->
+
     <div class="left-box">
-    <div class="left-content">
-    <h1>Gerador de imagens</h1>
-<input id="search_term" placeholder="Digite algo visual..." ></input>
-    <button type="button" id="submit" onclick="call_api()">Confirmar</button>
+      <div class="left-content">
+        <h1>Gerador de imagens</h1>
+        <input id="search_term" placeholder="Digite algo visual..." />
+        <button type="button" id="submit" onclick="call_api()">
+          Confirmar
+        </button>
+      </div>
     </div>
-    </div>
+
     <div class="right-box">
-    <p id="bot"></p>
-    <img src="" id="img">
+      <p id="bot"></p>
+      <img src="" id="img" alt="Imagem gerada pelo robô" />
     </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
+
