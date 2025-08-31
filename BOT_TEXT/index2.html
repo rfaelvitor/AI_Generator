@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Javascript</title>
+    <link rel="stylesheet" href="style copy.css">
+    <script src="script copy.js"></script>
+
+<body>
+    <!-- <form action="https://rfaelvitor.github.io/Testing_an_API_v2/BOT_IMAGES/index.html"> -->
+        <a href=../BOT_IMAGE/index.html>
+    <button id="other_bot"> ⬅️ Gerador de Imagens</button>
+    </a>
+    <!-- </form> -->
+    <div class="left-box">
+        <form class="left-content" id="chatForm">
+            <h1>Pergunte algo ao robô!</h1>
+<input id="search_term" placeholder="Faça qualquer pergunta..." ></input>
+            <button type="reset" id="reset" value="Limpar">Limpar</button>
+            <button type="submit" id="submit" onclick="call_api()">Enviar</button>
+        </form>
+    </div>
+    <div class="right-box">
+        <p id="bot"></p>
+    </div>
+</body>
+
+</html>

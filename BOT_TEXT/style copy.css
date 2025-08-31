@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+
+#img {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+#search_term {
+    height: 30%;
+    width: 60%;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+
+
+#submit {
+    height: 10%;
+    width: 50%;
+    border: 2px solid black;
+    background-color: rgb(0, 104, 29);
+    font-size: 1.5rem;
+      border: none;
+  border-radius: 10px;
+}
+
+#submit:hover,
+#reset:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#reset {
+    height: 10%;
+    width: 50%;
+    border: 2px solid black;
+    background-color: rgb(104, 0, 0);
+    font-size: 1.5rem;
+      border: none;
+  border-radius: 10px;
+}
+
+
+.left-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 50vw;
+    background-color: rgb(53, 0, 50);
+}
+
+.left-content {
+    background-color: rgba(255, 255, 255, 0.066);
+    height: 70%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-content > h1{
+    text-align: center;
+}
+
+
+/* .right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 50vw;
+    background-color:   rgb(41, 0, 39);
+    z-index: 1;
+} */
+
+
+
+/* .right-box > p {
+    color: white;
+    font-size: 1.8rem;
+    padding: 5%;
+    text-align: center;
+    margin: auto;
+} */
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* começa do topo */
+    padding: 2%;
+    height: 100vh;        /* altura fixa da box */
+    width: 50vw;
+    background-color: rgb(41, 0, 39);
+    overflow-y: auto;     /* scroll vertical automático */
+    scrollbar-width: thin; /* opcional: scroll menor em Firefox */
+}
+
+/* estilo do parágrafo */
+.right-box > p {
+    margin-top: 40px;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 1rem; /* espaço entre mensagens, se houver várias */
+}
+
+ 
+
+#other_bot {
+    position: absolute;
+    color: black;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        flex-direction: column;
+        background-color: rgb(53, 0, 50)
+    }  
+
+    .left-box{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .left-content{
+        height: 80%;
+    }
+
+    #other_bot{
+        position: relative;
+    }
+
+    .right-box{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    *, #submit, #reset, #other_bot, #bot {
+        font-size: 1rem;
+    }
+#search_term::placeholder {
+    font-size: 0.8rem;
+}
+}
+
+
