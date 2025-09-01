@@ -23,9 +23,9 @@ Ela utiliza a **API da Pollinations.ai**, adaptando a URL dinamicamente de acord
 
 ## 📎 Acesse os projetos
 
-👉 [Conversar com o bot de texto](https://rfaelvitor.github.io/Testing_an_API_v2/BOT_TEXT/index2.html)  
+👉 [Conversar com o bot de texto](https://rfaelvitor.github.io/AI_Generator/BOT_TEXT/index2.html)  
 
-👉 [Gerar imagens com IA](https://rfaelvitor.github.io/Testing_an_API_v2/BOT_IMAGES/index.html)  
+👉 [Gerar imagens com IA](https://rfaelvitor.github.io/AI_Generator/BOT_IMAGE/index.html)  
 
 *(Os dois projetos possuem botões internos para navegar de um para o outro.)*
 
