@@ -99,6 +99,14 @@ body {
     height: 80%;
   }
 
+  .left-box{
+    width: 100vw;
+  }
+
+  .right-box{
+    width: 100vw;
+  }
+
   *,
   #submit,
   #other_bot,
