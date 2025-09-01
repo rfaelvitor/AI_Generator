@@ -100,10 +100,12 @@ body {
   }
 
   .left-box{
+    height: 50vh;
     width: 100vw;
   }
 
   .right-box{
+    height: 50vh;
     width: 100vw;
   }
 
