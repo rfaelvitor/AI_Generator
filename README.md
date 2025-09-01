@@ -1,6 +1,7 @@
 # 🤖 Bot Gerador de Texto e Imagens com IA
 
-Aplicação simples que gera respostas de texto e imagens a partir de prompts do usuário, usando a mesma API de Inteligência Artificial.  
+Este foi meu **primeiro projeto usando JavaScript** e **minha primeira experiência trabalhando com APIs**. 
+É uma aplicação simples que gera respostas de texto e imagens a partir de prompts do usuário, usando a mesma API de Inteligência Artificial.  
 Ela utiliza a **API da Pollinations.ai**, adaptando a URL dinamicamente de acordo com a entrada do usuário.
 
 ## 🚀 Tecnologias usadas
