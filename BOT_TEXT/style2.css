@@ -119,8 +119,12 @@ body {
     height: 80%;
   }
 
-  #other_bot {
-    position: relative;
+  .left-box{
+    width: 100vw;
+  }
+
+  .right-box{
+    width: 100vw;
   }
 
   *,
