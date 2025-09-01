@@ -1,18 +1,20 @@
-# Text Bot | IA Generator 🤖
+# 🤖 Bot Gerador de Texto com IA
 
-Um bot que gera textos automaticamente utilizando uma API de inteligência artificial.  
+Um chatbot simples que gera respostas de texto com **Inteligência Artificial**.  
+Ele utiliza a API da **Pollinations.ai**, adaptando a URL dinamicamente de acordo com a entrada do usuário.
 
-## Funcionalidades
-- Recebe input do usuário
-- Gera respostas com base na IA
-- Mantém o histórico da conversa
-- Interface simples e interativa  
+## 🚀 Tecnologias usadas
+- **HTML5**
+- **CSS3**
+- **JavaScript (Fetch API)** → usado para enviar o input do usuário para a API e exibir a resposta.
 
-## Tecnologias
-- HTML, CSS, JavaScript
-- API de IA
+## 🔥 Como funciona
+1. O usuário digita qualquer mensagem no input.
+2. O JavaScript captura o texto e troca dinamicamente o endpoint da URL da API.
+3. A resposta da IA é exibida na tela.
 
-## Como usar
-1. Abra `index.html` no navegador
-2. Digite uma mensagem no campo de texto
-3. Pressione "Enter" ou clique em "Enviar"
+## 📎 Acesse o projeto
+👉 [Clique aqui para conversar com o bot](https://rfaelvitor.github.io/Testing_an_API_v2/BOT_TEXT/index2.html)
+
+## 🙏 Créditos
+- API utilizada: [Pollinations.ai](https://pollinations.ai/)
